@@ -2,7 +2,7 @@
 
 > **Curso:** ALGORITMO Y ESTRUCTURA DE DATOS BASADOS EN INTELIGENCIA ARTIFICIAL  
 > **Código:** 4682  
-> **Evaluación:** PA1  
+> **Evaluación:** PA2  
 > **Equipo:** Grupo 4
 
 ## 1. Integrantes
@@ -16,15 +16,16 @@
 
 ## 2. Descripción y objetivo
 **Problema:**
-La coordinación académica requiere un sistema informático estructurado para organizar, procesar y consultar la información referente a la gestión de talleres estudiantiles. Actualmente se necesita un modelo lógico que soporte el control de inscritos, la asignación de aulas, el manejo de bloques horarios y la optimización de los recursos del sistema.   
+La organización requiere un sistema para gestionar una secuencia dinámica de solicitudes de atención. El registro cambia constantemente debido al ingreso de nuevos casos, la eliminación de solicitudes procesadas, la reubicación de turnos y la necesidad en ciertos módulos de navegar en ambos sentidos o mantener un ciclo continuo de revisión sin detener el sistema.
+
 **Objetivo:**
-Proponer e implementar una solución técnica inicial utilizando estructuras de datos lineales estáticas (arreglos y matrices) para almacenar cantidades de inscritos, ejecutar algoritmos de ordenamiento y búsqueda, y representar gráficamente la distribución académica optimizando la memoria.   
+Diseñar y modelar una solución técnica utilizando estructuras lineales dinámicas (listas enlazadas simples, dobles y circulares) para administrar las solicitudes, asegurando flexibilidad en la asignación de memoria y optimizando la eficiencia de las operaciones de inserción, eliminación y recorrido continuo.
+
 **Solución desarrollada:**
-El equipo diseñó una arquitectura basada en tres fases:   
-**Vectores:** Implementación de un arreglo unidimensional con algoritmos de búsqueda (mayor/menor) y ordenamiento para procesar la cantidad de inscritos por taller.   
-**Matrices regulares:** Diseño de un recorrido de datos bidimensional (4 filas x 5 columnas) para calcular la ocupación de aulas según el horario.   
-**Optimización lógica:** Análisis del rendimiento del sistema donde se determinó que la aplicación de una matriz poco densa (Sparse Matrix) es la solución más eficiente para gestionar registros masivos de estudiantes, minimizando drásticamente el consumo inútil de memoria.
-## 3. Cómo ejecutar o revisar
+El equipo diseñó la gestión del sistema en las siguientes etapas:
+*   **Fundamentos y Modelado Base (Listas Simples):** Representación gráfica y lógica de una lista enlazada unidireccional, desarrollando los algoritmos principales para recorrer, buscar, modificar e insertar nuevas solicitudes al inicio, final o en puntos intermedios (Actividades 1, 2 y 3).
+*   **Algoritmos de Eliminación:** Lógica para desvincular nodos reajustando los punteros adecuadamente para evitar fugas de memoria (Actividad 3).
+*   **Estructuras Avanzadas (Listas Dobles y Circulares):** Sustentación técnica de módulos especializados (como auditoría de supervisores y monitores de sala de espera) donde una lista bidireccional ($O(1)$ para retrocesos) y un bucle continuo sin terminador `null` superan la eficiencia de una lista simple (Actividad 4).
 
 ```bash
 # Escribir aquí los comandos necesarios
@@ -75,7 +76,7 @@ Agregar aquí capturas, resultados, pruebas o enlaces que demuestren el funciona
 
 
 ## 7. Conclusiones
-El diseño de esta primera etapa del sistema académico demuestra que la correcta selección de estructuras de datos lineales estáticas (vectores y matrices) es fundamental para la eficiencia del software. Mientras que los arreglos unidimensionales permiten gestionar e iterar rápidamente listas definidas como los totales de inscritos, las matrices bidimensionales facilitan el cruce de variables complejas como la ocupación de aulas por horarios. Asimismo, el análisis del caso evidenció que ante volúmenes de datos donde predominan los valores nulos, optar por soluciones avanzadas como las matrices poco densas resulta indispensable para optimizar tanto el consumo de memoria RAM como el costo computacional de los algoritmos de búsqueda.
+El diseño de este módulo de gestión de solicitudes demuestra que la elección del tipo de lista enlazada impacta directamente en el rendimiento algorítmico del sistema. Mientras que la lista enlazada simple es óptima para registrar y atender un flujo lineal básico, operaciones de retroceso frecuente o presentación en ciclo continuo (como en monitores públicos) revelan las limitaciones de la unidireccionalidad y del puntero nulo al final de la estructura.La integración de listas doblemente enlazadas y listas circulares permite resolver estos cuellos de botella al reducir la complejidad temporal ($O(n)$ a $O(1)$) en las navegaciones inversas y eliminar procesos de reinicio manual, probando que las estructuras dinámicas deben elegirse basándose exclusivamente en el comportamiento y requerimientos de lectura de cada proceso en particular.
 ---
 
-**Última actualización:** [22/09/2026]
+**Última actualización:** [13/10/2026]
