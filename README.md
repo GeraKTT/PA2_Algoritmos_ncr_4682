@@ -9,9 +9,9 @@
 
 | Integrante | Rol | Aporte principal |
 |---|---|---|
-| Geraldine Khatrina Tudela Theo | Desarrolladora | Resolución de la Actividad 1: Fundamentos y representación gráfica (Lista enlazada simple para el caso). |
+| Geraldine Khatrina Tudela Theo | Desarrolladora | Resolución de la Actividad 1: Fundamentos y representación gráfica (Lista enlazada simple para el caso) y Resolución de la Actividad 3: Algoritmos de búsqueda, modificación y eliminación en lista enlazada simple, con comparación de eficiencia. |
 | Mijail mendoza chavez | programador |Desarrollo de la Actividad 2: Algoritmos de recorrido completo e inserción de solicitudes al inicio, al final y después de un nodo específico en una lista enlazada simple. Elaboración de pseudocódigos, diagramas, análisis de complejidad y pruebas en Java. |
-| Luis German Guerrero Peña | Analista | Resolución de la Actividad 3: Algoritmos de búsqueda, modificación y eliminación en lista enlazada simple, con comparación de eficiencia. |
+| Luis German Guerrero Peña | Analista | |
 | Victor Manuel Fabricio Quispe Gonzales | Analista | Resolución de la Actividad 4 |
 
 ## 2. Descripción y objetivo
@@ -49,11 +49,14 @@ Agregar aquí capturas, resultados, pruebas o enlaces que demuestren el funciona
 
 - Actividad 2 Recorrido e inserción:
 
-- <img width="722" height="872" alt="2" src="https://github.com/user-attachments/assets/1e7d73e0-25f8-4bff-aec3-38c9fee09c1d" />
+<img width="722" height="872" alt="2" src="https://github.com/user-attachments/assets/1e7d73e0-25f8-4bff-aec3-38c9fee09c1d" />
 <img width="1181" height="852" alt="1" src="https://github.com/user-attachments/assets/83aa8053-210f-4f0f-9f12-3ecfa86afa19" />
 
 
 - Actividad 3 Lista enlazada simple: búsqueda, modificación y eliminación:
+<img width="676" height="561" alt="actividad3_codigo" src="https://github.com/user-attachments/assets/6beeb0e3-387b-4c86-81a5-a0b10f3f81a9" />
+<img width="1021" height="675" alt="actividad3_consola" src="https://github.com/user-attachments/assets/17e6a2de-f998-401f-9d7c-6747d7f98e58" />
+
   
 - Actividad 4 Listas dobles y circulares:
 
@@ -62,7 +65,7 @@ Agregar aquí capturas, resultados, pruebas o enlaces que demuestren el funciona
 
 | Integrante | Desarrollo | Pruebas | Documentación | Exposición | Evidencia de participación |
 |---|---|---|---|---|---|
-| Geraldine Khatrina Tudela Theo | Alta | Alta | Media |  | Desarrollo de la Actividad 1, PDF y aporte al README. |
+| Geraldine Khatrina Tudela Theo | Alta | Alta | Media | | Desarrollo de la Actividad 1 y 3, PDF, evidencia de la actividad 3 y aporte al README. |
 | Mijail mendoza chavez | alta | alta| media |  | Desarrollo de la Actividad 2, PDF y aporte al README. |
 | Luis German Guerrero Peña | No | No | No | No | No|
 | Victor Manuel Fabricio Quispe Gonzales | Alta | Alta | Media |  | Desarrollo de actividad 4 , evidencia , README |
@@ -83,5 +86,6 @@ Agregar aquí capturas, resultados, pruebas o enlaces que demuestren el funciona
 
 El diseño de este módulo de gestión de solicitudes demuestra que la elección del tipo de lista enlazada impacta directamente en el rendimiento algorítmico del sistema. Mientras que la lista enlazada simple es óptima para registrar y atender un flujo lineal básico, operaciones de retroceso frecuente o presentación en ciclo continuo (como en monitores públicos) revelan las limitaciones de la unidireccionalidad y del puntero nulo al final de la estructura.La integración de listas doblemente enlazadas y listas circulares permite resolver estos cuellos de botella al reducir la complejidad temporal (O(n) a O(1)) en las navegaciones inversas y eliminar procesos de reinicio manual, probando que las estructuras dinámicas deben elegirse basándose exclusivamente en el comportamiento y requerimientos de lectura de cada proceso en particular.
 Asimismo, el desarrollo de los algoritmos de recorrido e inserción permitió comprender cómo se conectan los nodos y cómo se modifica la estructura de una lista enlazada al agregar nuevas solicitudes. La elaboración de pseudocódigos, diagramas y la implementación en Java ayudaron a comprobar el funcionamiento de estas operaciones y a analizar su complejidad.
+
 ---
 **Última actualización:** [13/10/2026]
