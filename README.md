@@ -71,7 +71,7 @@ Agregar aquí capturas, resultados, pruebas o enlaces que demuestren el funciona
 
 **Video público de YouTube:**
 - [Actividad 1]()
-- [Actividad 2]()
+- [https://www.youtube.com/watch?v=aIZEu3146kQ]()
 - [Actividad 3]()
 - [Actividad 4]()
  
