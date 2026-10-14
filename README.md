@@ -49,6 +49,10 @@ Agregar aquí capturas, resultados, pruebas o enlaces que demuestren el funciona
 
 - Actividad 2 Recorrido e inserción:
 
+- <img width="722" height="872" alt="2" src="https://github.com/user-attachments/assets/1e7d73e0-25f8-4bff-aec3-38c9fee09c1d" />
+<img width="1181" height="852" alt="1" src="https://github.com/user-attachments/assets/83aa8053-210f-4f0f-9f12-3ecfa86afa19" />
+
+
 - Actividad 3 Lista enlazada simple: búsqueda, modificación y eliminación:
   
 - Actividad 4 Listas dobles y circulares:
