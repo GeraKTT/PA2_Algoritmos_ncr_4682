@@ -68,7 +68,7 @@ Agregar aquí capturas, resultados, pruebas o enlaces que demuestren el funciona
 | Geraldine Khatrina Tudela Theo | Alta | Alta | Media | | Desarrollo de la Actividad 1 y 3, PDF, evidencia de la actividad 3 y aporte al README. |
 | Mijail mendoza chavez | alta | alta| media |  | Desarrollo de la Actividad 2, PDF y aporte al README. |
 | Luis German Guerrero Peña | No | No | No | No | No|
-| Victor Manuel Fabricio Quispe Gonzales | Alta | Alta | Media |  | Desarrollo de actividad 4 , evidencia , README |
+| Victor Manuel Fabricio Quispe Gonzales | Alta | Alta | Media | No | Desarrollo de actividad 4 , evidencia , README |
 
 ## 6. Video de exposición
 
