@@ -12,7 +12,7 @@
 | Victor Manuel Fabricio Quispe Gonzales | Analista | Resolución de la Actividad 4 |
 | Geraldine Khatrina Tudela Theo | Desarrolladora | Resolución de la Actividad 2: Modelado, algoritmos de búsqueda (mayor/menor), inserción y ordenamiento (Burbuja) en vectores. |
 | Luis German Guerrero Peña | Analista | Resolución de la Actividad 1: Análisis del problema y selección de estructura. |
-| Mijail mendoza chavez | programador |Desarrollo de la Actividad 2: algoritmos de recorrido completo e inserción de solicitudes al inicio, al final y después de un nodo específico en una lista enlazada simple. Elaboración de pseudocódigos, diagramas, análisis de complejidad y pruebas de ejecución en Java. |
+| Mijail mendoza chavez | programador |Desarrollo de la Actividad 2: implementación de algoritmos de recorrido e inserción en listas enlazadas, elaboración de pseudocódigos, diagramas y análisis de complejidad. |
 
 ## 2. Descripción y objetivo
 **Problema:**
