@@ -66,9 +66,10 @@ Agregar aquí capturas, resultados, pruebas o enlaces que demuestren el funciona
 ## 6. Video de exposición
 
 **Video público de YouTube:**
-
-- [Actividad 3](https://youtu.be/Ncj-AChbx7o)
-- [Actividad 4](https://youtu.be/aa_Sd9QqeMU)
+- [Actividad 1]()
+- [Actividad 2]()
+- [Actividad 3]()
+- [Actividad 4]()
  
 
 
