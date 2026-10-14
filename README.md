@@ -82,6 +82,6 @@ Agregar aquí capturas, resultados, pruebas o enlaces que demuestren el funciona
 ## 7. Conclusiones
 
 El diseño de este módulo de gestión de solicitudes demuestra que la elección del tipo de lista enlazada impacta directamente en el rendimiento algorítmico del sistema. Mientras que la lista enlazada simple es óptima para registrar y atender un flujo lineal básico, operaciones de retroceso frecuente o presentación en ciclo continuo (como en monitores públicos) revelan las limitaciones de la unidireccionalidad y del puntero nulo al final de la estructura.La integración de listas doblemente enlazadas y listas circulares permite resolver estos cuellos de botella al reducir la complejidad temporal (O(n) a O(1)) en las navegaciones inversas y eliminar procesos de reinicio manual, probando que las estructuras dinámicas deben elegirse basándose exclusivamente en el comportamiento y requerimientos de lectura de cada proceso en particular.
-
+Asimismo, el desarrollo de los algoritmos de recorrido e inserción permitió comprender cómo se conectan los nodos y cómo se modifica la estructura de una lista enlazada al agregar nuevas solicitudes. La elaboración de pseudocódigos, diagramas y la implementación en Java ayudaron a comprobar el funcionamiento de estas operaciones y a analizar su complejidad.
 ---
 **Última actualización:** [13/10/2026]
