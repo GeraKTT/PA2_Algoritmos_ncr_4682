@@ -9,10 +9,10 @@
 
 | Integrante | Rol | Aporte principal |
 |---|---|---|
+| Geraldine Khatrina Tudela Theo | Desarrolladora | Resolución de la Actividad 1: Fundamentos y representación gráfica (Lista enlazada simple para el caso). |
+| Mijail mendoza chavez | programador |Desarrollo de la Actividad 2: Algoritmos de recorrido completo e inserción de solicitudes al inicio, al final y después de un nodo específico en una lista enlazada simple. Elaboración de pseudocódigos, diagramas, análisis de complejidad y pruebas en Java. |
+| Luis German Guerrero Peña | Analista | Resolución de la Actividad 3: Algoritmos de búsqueda, modificación y eliminación en lista enlazada simple, con comparación de eficiencia. |
 | Victor Manuel Fabricio Quispe Gonzales | Analista | Resolución de la Actividad 4 |
-| Geraldine Khatrina Tudela Theo | Desarrolladora | Resolución de la Actividad 2: Modelado, algoritmos de búsqueda (mayor/menor), inserción y ordenamiento (Burbuja) en vectores. |
-| Luis German Guerrero Peña | Analista | Resolución de la Actividad 1: Análisis del problema y selección de estructura. |
-| Mijail mendoza chavez | programador |Desarrollo de la Actividad 2: implementación de algoritmos de recorrido e inserción en listas enlazadas, elaboración de pseudocódigos, diagramas y análisis de complejidad. |
 
 ## 2. Descripción y objetivo
 **Problema:**
@@ -34,9 +34,10 @@ El equipo diseñó la gestión del sistema en las siguientes etapas:
 **Pasos de revisión:**
 ```bash
 # 1. Clonar el repositorio en la máquina local
-git clone [https://github.com/GeraKTT/PA1_Algoritmos_ncr_4682.git](https://github.com/GeraKTT/PA1_Algoritmos_ncr_4682.git)
+git clone [https://github.com/GeraKTT/PA2_Algoritmos_ncr_4682.git](https://github.com/GeraKTT/PA2_Algoritmos_ncr_4682.git)
+
 # 2. Navegar al directorio del proyecto
-cd PA1_Algoritmos_ncr_4682
+cd PA2_Algoritmos_ncr_4682
 ```
 > No publicar contraseñas, tokens, credenciales ni datos sensibles.
 
@@ -44,25 +45,23 @@ cd PA1_Algoritmos_ncr_4682
 
 Agregar aquí capturas, resultados, pruebas o enlaces que demuestren el funcionamiento.
 
-- [Evidencia 1]
-- Actividad 2 (Vectores):
-  ![Consola de Vectores](Actividad_2_Modelado_y_operaciones/evidencias/Evidencia_Actividad2.png)
+- Actividad 1 Fundamentos y representación de listas enlazadas:
 
-  actividad 3 matrices y reciorridos base de datos : <img width="705" height="520" alt="Captura de pantalla 2026-09-22 231830" src="https://github.com/user-attachments/assets/109d1900-eded-471b-b6a2-920715e56e2c" />
-- Actividad 4 (Matrices especiales):
+- Actividad 2 Recorrido e inserción:
 
+- Actividad 3 Lista enlazada simple: búsqueda, modificación y eliminación:
   
-  ![Grafico](Actividad_4_Matrices_especiales/Evidencia4.png)
+- Actividad 4 Listas dobles y circulares:
+
 
 ## 5. Matriz de participación
 
 | Integrante | Desarrollo | Pruebas | Documentación | Exposición | Evidencia de participación |
 |---|---|---|---|---|---|
-| Victor Manuel Fabricio Quispe Gonzales | Alta | Alta | Media | Sí | Desarrollo de actividad 4 , evidencia , README |
-| Geraldine Khatrina Tudela Theo | Alta | Alta | Media | No | Desarrollo de actividad 2, código Java, evidencia de ejecución , aporte al README |
-| Luis German Guerrero Peña | Media | Media | Media | No | [Commits, avances, etc.] |
-| Mijail mendoza chavez | alta | alta| media | Sí | Desarrollo de la Actividad 3, código Java, pruebas de ejecución y aporte al README |
-
+| Geraldine Khatrina Tudela Theo | Alta | Alta | Media |  | Desarrollo de la Actividad 1, PDF y aporte al README. |
+| Mijail mendoza chavez | alta | alta| media |  | Desarrollo de la Actividad 2, PDF y aporte al README. |
+| Luis German Guerrero Peña | No | No | No | No | No|
+| Victor Manuel Fabricio Quispe Gonzales | Alta | Alta | Media |  | Desarrollo de actividad 4 , evidencia , README |
 
 ## 6. Video de exposición
 
@@ -76,7 +75,8 @@ Agregar aquí capturas, resultados, pruebas o enlaces que demuestren el funciona
 
 
 ## 7. Conclusiones
-El diseño de este módulo de gestión de solicitudes demuestra que la elección del tipo de lista enlazada impacta directamente en el rendimiento algorítmico del sistema. Mientras que la lista enlazada simple es óptima para registrar y atender un flujo lineal básico, operaciones de retroceso frecuente o presentación en ciclo continuo (como en monitores públicos) revelan las limitaciones de la unidireccionalidad y del puntero nulo al final de la estructura.La integración de listas doblemente enlazadas y listas circulares permite resolver estos cuellos de botella al reducir la complejidad temporal ($O(n)$ a $O(1)$) en las navegaciones inversas y eliminar procesos de reinicio manual, probando que las estructuras dinámicas deben elegirse basándose exclusivamente en el comportamiento y requerimientos de lectura de cada proceso en particular.
----
 
+El diseño de este módulo de gestión de solicitudes demuestra que la elección del tipo de lista enlazada impacta directamente en el rendimiento algorítmico del sistema. Mientras que la lista enlazada simple es óptima para registrar y atender un flujo lineal básico, operaciones de retroceso frecuente o presentación en ciclo continuo (como en monitores públicos) revelan las limitaciones de la unidireccionalidad y del puntero nulo al final de la estructura.La integración de listas doblemente enlazadas y listas circulares permite resolver estos cuellos de botella al reducir la complejidad temporal (O(n) a O(1)) en las navegaciones inversas y eliminar procesos de reinicio manual, probando que las estructuras dinámicas deben elegirse basándose exclusivamente en el comportamiento y requerimientos de lectura de cada proceso en particular.
+
+---
 **Última actualización:** [13/10/2026]
